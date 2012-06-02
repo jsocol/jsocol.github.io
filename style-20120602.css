@@ -63,8 +63,8 @@ header h1 {
 
 header {
     background-image: url('images/js-magenta-128.png');
+    background-position: top left;
     background-repeat: no-repeat;
-    background-attachment: top left;
     height: 128px;
     margin: 12px 0;
     padding-left: 138px;
