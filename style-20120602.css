@@ -55,7 +55,7 @@ h1, h2, dt {
 }
 
 header h1 {
-    font-size: 100px;
+    font-size: 98px;
     line-height: 128px;
     margin: 0;
     padding: 0;
@@ -67,7 +67,7 @@ header {
     background-repeat: no-repeat;
     height: 128px;
     margin: 12px 0;
-    padding-left: 138px;
+    padding-left: 134px;
 }
 
 p {
