@@ -71,8 +71,30 @@ header {
 }
 
 p {
-    clear: both;
     margin: 12px 0 0;
+}
+
+img {
+    display: block;
+    margin: 6px;
+}
+
+img.left {
+    float: left;
+    margin-right: 0;
+}
+
+img.right {
+    float: right;
+    margin-left: 0;
+}
+
+img.top {
+    margin-top: 0;
+}
+
+img.bottom {
+    margin-bottom: 0;
 }
 
 article#opensource {
@@ -97,9 +119,23 @@ article#sideprojects:after {
     color: #fff;
 }
 
+dl:after {
+    clear: both;
+    content: '.';
+    color: #fff;
+    height: 0;
+    overflow: hidden;
+}
+
 dt {
     clear: both;
     margin: 12px 0 0 0;
+}
+
+dl.talks dt {
+    font-family: 'CallunaItalic', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-style: italic;
 }
 
 dd {
