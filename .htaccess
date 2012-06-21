@@ -1,4 +1,4 @@
-<FilesMatch "\.(woff|ttf|svg|eot|css|png|jpg)$">
+<FilesMatch "\.(woff|ttf|svg|eot|css|png|jpg|ico)$">
     FileETag None
     ExpiresActive on
     ExpiresDefault "access plus 10 years"
