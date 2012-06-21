@@ -3,4 +3,4 @@
     ExpiresActive on
     ExpiresDefault "access plus 10 years"
 </FilesMatch>
-AddOutputFilterByType DEFLATE text/html text/css
+AddOutputFilter DEFLATE html css eot ttf svg txt
