@@ -85,14 +85,23 @@
     }
     var h = document.getElementsByTagName('header')[0];
     h.style.cursor = 'pointer';
-    if (h.attachEvent) {
-      h.attachEvent('onclick', click);
-    } else {
+    if (h.addEventListener) {
       h.addEventListener('click', click, true);
+    } else {
+      h.attachEvent('onclick', click);
     }
   })();
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3260115-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('body')[0]; s.appendChild(ga);
+  })();
   </script>
-  <script src="ga.js"></script>
 </body>
 </html>
 <!-- Made with Love in NYC using HTML and CSS. -->
