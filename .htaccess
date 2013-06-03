@@ -6,6 +6,6 @@
 AddOutputFilter DEFLATE html css eot ttf svg txt ico
 
 RewriteEngine on
-RewriteRule ^resume$ /james-socol-resume-2012.pdf [L,R=302]
+RewriteRule ^resume$ /james-socol-resume-2013.pdf [L,R=302]
 RewriteRule ^wiki - [L,G]
 RewriteRule ^blog http://coffeeonthekeyboard.com/ [L,R=301]
