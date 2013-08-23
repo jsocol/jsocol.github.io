@@ -1,5 +1,5 @@
 ==============
-JamesSocol.com
+jamessocol.com
 ==============
 
 This is the source code for `my website`_. Its source code is
