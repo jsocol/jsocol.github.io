@@ -80,12 +80,12 @@
   section * {
     pointer-events: none;
   }
-  div.overlay {
+  .overlay {
     background-color: rgba(255,255,255,0.65);
     font-size: 160%;
     height: 300px;
     left: 0;
-    padding-top: 200px;
+    padding: 200px 12px;
     position: absolute;
     text-shadow: 1px 1px 3px #ccc;
     top: 0;
@@ -101,9 +101,6 @@
 
 <body>
 <h1>Help James Pick a Summer Suit</h1>
-
-<div id="controls">
-</div>
 
 <article class="suits">
 
@@ -162,18 +159,7 @@
 
 <script>
   var container = document.querySelector('article.suits');
-
-  function allClasses() {
-    var suits = container.querySelectorAll('section');
-    var classes = {};
-    for (var i=0; i<suits.length; i++) {
-      var suit = suits[i];
-      for (var j=0; j<suit.classList.length; j++) {
-        classes[suit.classList[j]] = true;
-      }
-    }
-    return classes;
-  }
+  var suits = container.querySelectorAll('section');
 
   function addOverlay(suit) {
     var div = document.createElement('div');
@@ -191,32 +177,22 @@
     }
   }
 
-  function removeAllOverlays() {
-    var suits = container.querySelectorAll('section');
-    for (var i=0; i<suits.length; i++) {
-      removeOverlay(suits[i]);
-    }
-  }
-
-  function init() {
-    var suits = container.querySelectorAll('section');
-    for (var i=0; i<suits.length; i++) {
-      var suit = suits[i];
-      suit.addEventListener('mouseenter', function(e) {
-        console.log('enter', e.target);
-        addOverlay(e.target);
-      });
-      suit.addEventListener('mouseleave', function(e) {
-        console.log('leave', e.target);
-        removeOverlay(e.target);
-      });
-    }
-    container.addEventListener('click', function(e) {
-      if (e.target.dataset.url) {
-        var win = window.open(e.target.dataset.url, '_blank');
-        win.focus();
+  for (var i=0; i<suits.length; i++) {
+    var suit = suits[i];
+    suit.addEventListener('mouseenter', function(e) {
+      if (this.dataset.faded) {
+        return;
       }
+      addOverlay(e.target);
+    });
+    suit.addEventListener('mouseleave', function(e) {
+      removeOverlay(e.target);
     });
   }
-  init();
+  container.addEventListener('click', function(e) {
+    if (e.target.dataset.url) {
+      var win = window.open(e.target.dataset.url, '_blank');
+      win.focus();
+    }
+  });
 </script>
