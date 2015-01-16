@@ -183,7 +183,7 @@ dl:after {
 }
 
 dt {
-    clear: both;
+    clear: left;
     margin: 12px 0 0 0;
 }
 
