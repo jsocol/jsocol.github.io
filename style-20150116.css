@@ -268,6 +268,6 @@ section#todaysmeet {
     background-image: url('images/tm-screenshot.png');
 }
 
-section#nextup {
-    background-image: url('images/nu-screenshot.png');
+footer {
+    clear: both;
 }
