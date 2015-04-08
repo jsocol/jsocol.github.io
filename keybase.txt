@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/jamessocol
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamessocol.com
+  * I am jamessocol (https://keybase.io/jamessocol) on keybase.
+  * I have a public key with fingerprint B856 FE22 4F11 9DB0 F88E  3BDD 80F9 3DCE 9EBF CF1D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "b856fe224f119db0f88e3bdd80f93dce9ebfcf1d",
+            "host": "keybase.io",
+            "key_id": "80F93DCE9EBFCF1D",
+            "uid": "fb9c53e893173272cd6b8b1935a0db19",
+            "username": "jamessocol"
+        },
+        "merkle_root": {
+            "ctime": 1428494047,
+            "hash": "ca2ec594dad2cf3aab9969a0920a7ba451a60d89284f2b4ce42811a544cdca6f4292a316b15e7a1ded6ca93deeeb725a4ba05d31bd07e3ac13765692f33b871f",
+            "seqno": 194264
+        },
+        "service": {
+            "hostname": "jamessocol.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428494082,
+    "expire_in": 157680000,
+    "prev": "f7623eab76452e8c4cb584ec0c65f9a0df9c558b600be1502f2f34bdbf69d2f0",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFlkltoHUUYx0+OMcFoxAdrKrQY1lR7bHI6Mzs7u5NaH0xygtKrNKEiss412fRk
+92R3G43HSGsspRRTjQWxD/UCxQclWlpKaUWxFgupWi2aamPxhtDQghQpWpHW2RDx
+ti+zu/P//vP/fd8833hdLl+z5crKT/e+f2pxzclZnutZ0pSvWjySI1Z71RLlQIVp
+9hayQWW1W5vUCGeJKgZRcxhJVRxImuc1rdawipMgCo0KFN0iskZbM3lWrIOwT8WV
+OMi8LO45RCuEsIaQSg605ymbS+kBTW0pFFVcCw2lseyPkvRfp1pznn4gzV8PlKjd
+2dFFu+4vdZRgp9nbPLehORWOrTxqQ9dGLhKScI9DajsMSLNmwkTF80gDZkmSSETl
+LPGgijeVlR9H0Ry2SINMBDHyMMUAuyYTS/pNmWBICYdiySQS2maMU0ooAxQB5nKG
+HcgIkB41hRpxLJSxgJA5GAspGNEYUcRsSDh0lMugVJIIZviVUtxFDsOcAUfakEvg
+KpsJaLvEIRRp2+aeC7WBSNRQGJlwFCOCR7PveDgQKsudNe5/fEURDZqyShylc7jt
+Vn+aVtoz7HSkkmn3P664P2/j8yCUZnD/nCw00v+0xEOtlnqiEsTKDzKF4xIPmCc7
+Rw1n03AJshXjLsEOUp7AgjseVgII4mjTMKnNtByPEwC4gg5A2jBiLrkmVCIN/gZ1
+TE7WZyyToC9k6eZYWaM7ahbV5mryubrr89nVzTXccMtf9zk6X3+1UDx25lK33/T7
+TTvfaqhb0lIdHzny9e1NS6f30zXh5anZludu/bHr4rmvGnZNnG1cvqIwfbVzoPpZ
+47en3inlp5rXvPdGZVXOev3Bk18+cuH495+sf9I/cro+bVv/66ItdQcOzFzrXbh1
+47L43MNi29jk4TsKb06/OnPssZ2rHl0o/YlSYfc3x9e9tOupu3fv+OCj8Z6ZQ20d
+ceuzNw59OHRi9dEV48Pl8taxLya3FbsfABNnb173XaFt8dAvl8V9/aMH195bvfDx
+tfP3vHJpX3dP7R8X61/YHk4u7d0wtXx1W9/p9MSLR7d/ftvTZO/KJBg7+NszV9zX
+Ghccflv6777cu+fMnT/c9dPs1EMth8DPtX8C
+=VywL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamessocol
+
+==================================================================
