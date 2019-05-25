@@ -222,50 +222,10 @@ dd[class] {
     }
 }
 
-section.project {
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    float: left;
-    height: 215px;
-    margin: 18px 0 0 0;
-    width: 50%;
-}
-
-@media screen and (max-width: 849px) {
-    section.project {
-        float: none;
-        margin: 18px auto 0;
-        width: 360px;
-    }
-}
-
-@media screen and (max-width: 399px) {
-    section.project {
-        background-size: contain;
-        margin: 12px -12px 0;
-        width: -moz-calc(100% + 24px);
-        width: -webkit-calc(100% + 24px);
-        width: calc(100% + 24px);
-    }
-}
-
-section.project h2,
-section.project h2 a {
+.fingerprint {
     display: block;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-section.project h2 a {
-    height: 0;
-    padding: 215px 0 0 0;
-    overflow: hidden;
-}
-
-section#todaysmeet {
-    background-image: url('images/tm-screenshot.png');
+    font-family: Consolas, "Courier New", sans-serif;
+    font-size: 12px;
 }
 
 footer {
