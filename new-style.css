@@ -167,18 +167,42 @@ body {
         text-align: left;
     }
 
+    .header__content {
+        display: grid;
+        gap: calc(1.5 * var(--spacing-base));
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 200px 1fr;
+        grid-template-areas:
+            "image title"
+            "image dek"
+            "image contact";
+    }
+
+    .header__content h1 {
+        margin: 0;
+        grid-area: title;
+        align-self: last baseline;
+    }
+
+    .header__dek {
+        grid-area: dek;
+        margin: 0;
+    }
+
     .header__image {
-        float: left;
-        margin-right: calc(2 * var(--spacing-base));
+        margin: 0;
+        grid-area: image;
+        grid-row: span 3;
     }
 
     .header__contact {
         text-align: center;
+        grid-area: contact;
     }
 
     .content :any-link {
-        text-decoration: none;
-        transition: 0.1s text-decoration ease;
+        background: none;
+        transition: 0.2s background-color ease;
     }
 
     .content :any-link:focus-within,
