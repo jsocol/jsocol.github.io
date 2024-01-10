@@ -109,6 +109,11 @@ body {
 }
 
 .header__image {
+    height: 200px;
+    width: 200px;
+}
+
+.header__image img {
     border-radius: 50%;
 }
 
@@ -230,7 +235,7 @@ body {
         display: grid;
         gap: calc(1.5 * var(--spacing-base));
         grid-template-rows: auto;
-        grid-template-columns: 200px auto;
+        grid-template-columns: 230px auto;
         grid-template-areas:
             "image title"
             "image dek"
@@ -238,9 +243,9 @@ body {
     }
 
     .header__content h1 {
-        margin: 0;
-        grid-area: title;
         align-self: last baseline;
+        grid-area: title;
+        margin: 0;
     }
 
     .header__dek {
@@ -249,8 +254,13 @@ body {
     }
 
     .header__image {
-        margin: 0;
         grid-area: image;
+        margin: 0;
+    }
+
+    .header__image img {
+        height: 230px;
+        width: 230px;
     }
 
     .header__contact {
