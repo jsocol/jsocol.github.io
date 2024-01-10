@@ -191,16 +191,6 @@ body {
     margin: 0 auto calc(4 * var(--spacing-base));
 }
 
-.content__intro {
-    column-count: 2;
-    column-gap: calc(2.5 * var(--spacing-base));
-    text-align: justify;
-}
-
-.content__intro p:first-of-type {
-    margin-top: 0;
-}
-
 
 .content :any-link {
     color: var(--text-link-color);
@@ -281,5 +271,15 @@ body {
     .content :any-link:focus-within,
     .content :any-link:hover {
         background-color: var(--color-platinum);
+    }
+
+    .content__intro {
+        column-count: 2;
+        column-gap: calc(2.5 * var(--spacing-base));
+        text-align: justify;
+    }
+
+    .content__intro p:first-of-type {
+        margin-top: 0;
     }
 }
