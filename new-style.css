@@ -136,7 +136,7 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(var(--num-icons), auto);
-    gap: 1rem;
+    gap: var(--spacing-base);
     max-width: calc(48 * var(--spacing-base));
 }
 
@@ -245,11 +245,12 @@ body {
     .header__content h1 {
         align-self: last baseline;
         grid-area: title;
-        margin: 0;
+        margin: var(--spacing-base) 0 0 0;
     }
 
     .header__dek {
         grid-area: dek;
+        line-height: 1.2;
         margin: 0;
     }
 
